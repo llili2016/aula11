@@ -52,7 +52,8 @@ boy.collide(rightBoundary);
 
 
  //Reiniciar o fundo
- function setup
+  if(path.y > 400 )
+   { path.y = height/1.5; }
  
  
 
